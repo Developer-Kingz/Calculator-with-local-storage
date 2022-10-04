@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.screen {
+    width: 100vw;
+    height: 100vh;
+    /* border: 1px solid black; */
+    background-color:aliceblue;
+}
+
+.mainbody {
+    width: 23vw;
+    height: 95vh;
+    /* border: 1px solid black; */
+    margin: 20px auto;
+    border-radius: 35px;
+    font-size: 20px;
+    background-color: #292D36;
+    color: white;
+    
+}
+
+.output {
+    width: 100%;
+    height: 40%;
+    /* border: 1px solid black; */
+}
+
+.output .first{
+    width: 100%;
+    height: 70%;
+    /* border: 1px solid black; */
+    margin-top: 20px;
+}
+
+.output .first .icon{
+    width: 100%;
+    height: 20%;
+    /* border: 1px solid black; */
+    transform: translateY(40px);
+    
+}
+
+.output .first .icon .the-icons{
+    width: 30%;
+    height: 100%;
+    /* border: 1px solid black; */
+    margin: auto;
+    background-color: #3a3e46;
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+.output .first .icon .the-icons .star{
+    width: 50%;
+    height: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.output .first .icon .the-icons .moon{
+    width: 50%;
+    height: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.output .first .icon .the-icons .moon button{
+    cursor: pointer;
+}
+
+.output .first .num{
+    width: 100%;
+    height: 80%;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+    padding-right: 30px;
+    font-size: 30px;
+}
+
+.output .second{
+    width: 100%;
+    height: 30%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 30px;
+    font-size: 30px;
+}
+
+.input {
+    width: 100%;
+    height: 60%;
+    /* border: 1px solid black; */
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2E2E39;
+    /* background-color: #3a3e46; */
+    /* padding-left: 10px; */
+
+}
+
+.input .container{
+    width: 95%;
+    height: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.style {
+    width: 20%;
+    height: 15%;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    border-radius: 5px;
+    background-color: #292D36;
+    margin-right: 5px;
+    margin-left: 5px;
+    border: none;
+    
+    
+    
+}
+
+.style:hover{
+    cursor: pointer;
+    width: 22%;
+    height: 16%;
+}
+
+.theme-up{
+    background-color: black;
+    color: white;
+}
+
+
+.theme-up-white{
+    background-color: white;
+    color: black;
+}
